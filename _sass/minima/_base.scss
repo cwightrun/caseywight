@@ -218,10 +218,36 @@ pre {
   }
 
   h2 {
+    padding-bottom: 24px;
     font-size: 36px;
     line-height: 1.33;
     font-weight: 300;
   }
+}
+
+.social {
+  a {
+    margin: 0 12px 0 0;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    transition: all 120ms ease-in-out;
+    opacity: 0.8;
+    border-radius: 6px;
+
+    span { display: none; }
+
+    &:hover { opacity: 1.0; }
+  }
+
+  img {
+    width: 36px;
+  }
+}
+
+.self-blurb {
+  padding: 64px 0;
+  text-align: center;
 }
 
 .showcase {
@@ -248,7 +274,7 @@ pre {
     margin: 0 1%;
     display: inline-block;
     width: 28%;
-    transition: all 120ms ease-in-out;
+    transition: all 200ms ease-in-out;
 
     &:hover {
       // box-shadow: 0 2px 1px rgba(0, 0, 0, 0.15);
